@@ -36,17 +36,17 @@ class Solution {
         public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
-        int N=sc.nextInt();
-        int mat[][]-new int[N*N];
-        for(int i=0;i<N;i++)
+        int n=sc.nextInt();
+        int mat[][]-new int[n*n];
+        for(int i=0;i<n;i++)
         {
-            for(int j=0;j<N;j++)
+            for(int j=0;j<n;j++)
             {
                mat[i][j]=sc.nextInt(); 
             }
         }
-        sortedMatrix(mat, N);
-        printMat(Mat, N);
+        sortedMatrix(mat, n);
+        printMat(Mat, n);
     
     }
 }
