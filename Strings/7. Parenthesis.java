@@ -40,6 +40,7 @@ class Parenthesis
                 }
             else
             {
+                
                 char c=s.pop();
                 if((c=='{'&&ch=='}')||(c=='('&&ch==')')||(c=='['&&ch==']'))
                     continue;
